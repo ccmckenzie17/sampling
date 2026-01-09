@@ -40,30 +40,90 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#3`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+This survery is to intended to examine the relationship between age and music preferences. It is commonly observed that people tend to prefer music that was popular during their formative years (15-25yrs old) but it is unclear if this is true or if people's music tastes do typically evolve over time. Here we seek to assess how music preferences change across the lifespan.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Strategy:
+To test this I will use stratified random sampling based on age. Participants will be gathered from Amazon MTurk (a paid research participantion system) which also contains demographic information including age. I will use proportional allocation to get an equal number of respondants per age strata. 
+
+Target population: All people from age 18 to 65 living in North America who speak English as a first language. 
+
+Sampling frame: Any Amazon MTurk worker who meets the eligibility criteria
+
+Sampling units: Individuals in the sampling frame
+
+Observational units: Individuals in the sampling frame (same as sampling units here).
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. What is your date of birth? 
+______
+
+2. Which of these most closely describes your favourite genre of music?
+a) Pop
+b) Rock / Metal
+c) Hip Hop / Rap
+d) Jazz / Classical
+e) Country 
+
+3. Which of these most closely describes what your favourite genre of music was 10 years ago?
+a) Pop
+b) Rock / Metal
+c) Hip Hop / Rap
+d) Jazz / Classical
+e) Country 
+
+4. How old were you when you first discovered your current favourite musical artist?
+______
+
+5. How often do you listen to top 100 radio or playlists?
+a) Every day
+b) More than once a week
+c) Once a week
+d) Less than once a week
+e) Never
+
+6. How often did you listen to top 100 radio or playlists 10 years ago?
+a) Every day
+b) More than once a week
+c) Once a week
+d) Less than once a week
+e) Never
+
+7. How much do agree with the following statement? "They just don't make music like they used to"
+a) Strongly agree
+b) Agree
+c) Neither agree or disagree
+d) Disagree
+e) Strongly disagree 
+
+8. How much do you agree with the following statement? "I love to discover new music"
+a) Strongly agree
+b) Agree
+c) Neither agree or disagree
+d) Disagree
+e) Strongly disagree 
+
+9. How much do you agree with the following statement? "I know what genres I like and I prefer to stick with those"
+a) Strongly agree
+b) Agree
+c) Neither agree or disagree
+d) Disagree
+e) Strongly disagree 
+
+10. How much do you agree with the following statement? "My music taste used to be more broad than it is now"
+a) Strongly agree
+b) Agree
+c) Neither agree or disagree
+d) Disagree
+e) Strongly disagree 
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +131,57 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type
+Stratified probability sample. The sample is stratified by census metropolitan areas (CMA). One randomly selected household member aged 15 or older is sampled. Proxy responses are not permitted.
+Individuals who are identified as volunteers do a long interview and non-volunteers are randomly divided into a long or a short interview group.
+
+2. Sample size
+Target: 20,000
+Actual respondents: 16,149
+Rejected respondents: 3,708
+Estimated number of households in the survey’s scope: 47,436.
+
+3. Target population
+All individuals 15 or older living in a Canadaian province (not territories)
+
+4. Sampling frame
+Households in a canadian province with telephone numbers registered in the previous census.
+
+5. Survey mode(s) 
+Respondants could choose either online or telephone interviews. Both English and French available.
+
+6. Timeline
+Collection period was from 2018-09-04 to 2018-12-28.
+
+7. Response rate
+41.9%
+
+8. Weights
+Survery estimates were weighted to account for non-response cases and better represent the target population. Income and household composition information was drawn from other adminstrative sources for non-responding households in order to model them.
+
+9. Data processing
+After data was collected it was edited for consistency and coded acording to standard classification systems before cleaninf and imputation.
+
+10. Cleaning, imputation, etc
+Both automatic and manual edits were performed at several stages to ensure the data integrity.
+Records were removed if they were out of the relevant scope, duplicate entries, had no responses or were rejected respondants. 
+Imputation was done by finding donor records that most closely matched the characteristics of the non-respondant. This was done for income, formal, and informal voluntering variables.
+
+11. Sources of error
+Sampling error
+-sample estimates wikll vary and may not match census results. Bootstaping is used to reduce this. All reported differences between subgroups and the population are signficant at the 95% level.
+Non-sampling error
+-imperfect coverage (eg, houses without a telephone number)
+-non response bias (minimized with weighting as desccribed above)
+-other (minimized by strongly validated questionnaire and methodology etc.)
+
+12. Limitations, known biases, etc
+It is hard to compare to previouis cycles due to changes in collection mode/methods and changes to some questionnaire items.
+Bias introduced by non response and imperfect coverage
+
+13. Link to documentation and any additional sources used
+https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
+https://www150.statcan.gc.ca/n1/pub/45-25-0001/cat5/c33_2018.zip
 ```
 
 ## Rubric
